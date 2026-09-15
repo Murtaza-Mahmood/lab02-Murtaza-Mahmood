@@ -7,6 +7,11 @@ def test_seconds_to_hms():
     assert seconds_to_hms(3600) == "1:00:00"
     assert seconds_to_hms(7325) == "2:02:05"
     assert seconds_to_hms(0) == "0:00:00"
+    print(seconds_to_hms(3661))
+    print(seconds_to_hms(59))
+    print(seconds_to_hms(3600))
+    print(seconds_to_hms(7325))
+    print(seconds_to_hms(0))
 
 
 def test_admission_price():
